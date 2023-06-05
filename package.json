@@ -11,7 +11,6 @@
     "type": "git",
     "url": "https://github.com/jeromeabel/my-react-lib.git"
   },
-  "private": true,
   "version": "0.0.1",
   "type": "module",
   "files": [
@@ -26,6 +25,9 @@
       "require": "./dist/my-react-lib.umd.cjs",
       "types": "./dist/index.d.ts"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "dev": "vite",
